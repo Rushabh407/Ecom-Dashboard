@@ -1,0 +1,30 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem auto;
+    align-items: center;
+}
+.container h1{
+    padding: 1rem;
+}
+.container input{
+    padding:0.5rem;
+    width: 30%;
+    border-radius: 10px;
+}
+.container button {
+    padding: 0.5rem;
+    background-color: rgb(177, 7, 148);
+    color: white;
+    width: 5rem;
+    border-radius: 10px;
+    margin: 0 10px;
+
+}
+.error{
+    color:red;
+    background-color: rgb(216, 191, 191);
+    border: none;
+}

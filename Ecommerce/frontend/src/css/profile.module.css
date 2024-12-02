@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(216, 191, 191);
+}
+.info{
+    display: flex;
+    
+}
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+}
+.container2{
+    margin-left: 100px;
+}
+.container1{
+    display: flex;
+    align-self: flex-end;
+   margin: 10px;
+   height: 30px;
+}
+button{
+    margin: 15px 10px;
+    height: 30px;
+    padding: 0px 30px;
+}
+.info p:first-child {
+    font-size: larger;
+    width: 10%;
+    padding: 10px;
+    margin: 5px;
+}
+.info p:last-child,.input {
+    font-size: larger;
+    width: 60%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.password{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+    align-self:flex-end;
+}

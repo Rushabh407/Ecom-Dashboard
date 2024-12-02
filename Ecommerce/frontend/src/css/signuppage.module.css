@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin: 1rem auto;
+    align-items: center;
+}
+.container h2{
+    padding: 2rem;
+}
+.container input{
+    padding:0.5rem;
+    width: 30%;
+    border-radius: 10px;
+}
+.container button {
+    padding: 0.5rem;
+    background-color: rgb(177, 7, 148);
+    color: white;
+    width: 5rem;
+    border-radius: 10px;
+
+}
+.error{
+    color: red;
+}

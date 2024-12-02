@@ -1,0 +1,43 @@
+h1{
+    margin: 10px;
+    text-align: center;
+}
+span{
+    border:1px solid black;
+    width: 10%;
+    padding: 10px;
+    background-color: white;
+}
+.container1 ,.container2{
+    display: flex;
+    justify-content: center;
+    
+}
+.container1{
+    font-weight: bold;
+}
+.delete{
+    padding: 2px 8px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid black;
+    margin:0 2px;
+}
+.update{
+    padding: 2px 8px;
+    background-color: rgb(7, 180, 7);
+    border-radius: 5px;
+    color: white;
+    border: 1px solid black;
+    margin:0 2px;
+}
+input{
+    padding: 10px;
+    margin: 10px 0;
+    width: 75%;
+}
+.searchBar{
+    display: flex;
+    justify-content: center;
+}
